@@ -3952,6 +3952,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7040783009147459350}
   - component: {fileID: 7040783009137616880}
+  - component: {fileID: 3980781594218819474}
+  - component: {fileID: 2030045657}
+  - component: {fileID: 2030045658}
+  - component: {fileID: 4756787762307243078}
   m_Layer: 0
   m_Name: Dog_Labrador_01
   m_TagString: Untagged
@@ -4029,6 +4033,56 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &3980781594218819474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040783009147225408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09085605, y: 0.19631185, z: 0.2732839}
+  m_Center: {x: -0.0010658536, y: 0.09752253, z: 0.032621674}
+--- !u!114 &2030045657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040783009147225408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6108ebb42d0294bf6935d85f51349d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+--- !u!114 &2030045658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040783009147225408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d00860f52e24d26ac9207918de3106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4756787762307243078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040783009147225408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbf67d12aa03f48bf90b7efaf9181d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7040783009147226884
 GameObject:
   m_ObjectHideFlags: 0
