@@ -594,7 +594,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
+  verticalInput: 0
+  speed: 15
   xRange: 10
   projectilePrefab: {fileID: 6681368825805525939, guid: a8d432bfa26b44c9dae95713d6dab0f8,
     type: 3}
@@ -662,6 +663,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1345321027, guid: 4309699af90c8464d9a1c9839faa7b9f, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 856949064173090344, guid: 4309699af90c8464d9a1c9839faa7b9f,
         type: 3}
       propertyPath: m_Name
@@ -680,7 +685,7 @@ PrefabInstance:
     - target: {fileID: 856949064173248084, guid: 4309699af90c8464d9a1c9839faa7b9f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.28
+      value: 18.18
       objectReference: {fileID: 0}
     - target: {fileID: 856949064173248084, guid: 4309699af90c8464d9a1c9839faa7b9f,
         type: 3}
@@ -818,7 +823,7 @@ PrefabInstance:
     - target: {fileID: 7040783009147459350, guid: 523af821431f34aa196bd58ff973f37a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.21
+      value: 18.9
       objectReference: {fileID: 0}
     - target: {fileID: 7040783009147459350, guid: 523af821431f34aa196bd58ff973f37a,
         type: 3}
@@ -887,7 +892,7 @@ PrefabInstance:
     - target: {fileID: 7221489543761629363, guid: 96cd96862151b4c0b9c7562d8b1b7021,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.76
+      value: 18.83
       objectReference: {fileID: 0}
     - target: {fileID: 7221489543761629363, guid: 96cd96862151b4c0b9c7562d8b1b7021,
         type: 3}
